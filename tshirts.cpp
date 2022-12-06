@@ -42,7 +42,7 @@ void testForMedium() {
 }
 
 void testForLarge() {
-  assert(size(LOWER_BOUNDARY_FOR_LARGE -1) == 'M');
+  assert(size(LOWER_BOUNDARY_FOR_LARGE -1) == 'L');
   assert(size(LOWER_BOUNDARY_FOR_LARGE) == 'L');
   assert(size(LOWER_BOUNDARY_FOR_LARGE +1) == 'L');
 }
